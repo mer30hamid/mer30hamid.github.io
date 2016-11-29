@@ -1,0 +1,6 @@
+---
+published: true
+title: 40om
+layout: post
+---
+چهارمی
