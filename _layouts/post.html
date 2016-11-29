@@ -20,7 +20,9 @@
     </header>
     <article>
         {{ content }}
-        {% include disqus.html %}
+        {% if page.comments %}
+            {% include disqus.html %}
+        {% endif %}
         {% for post in site.posts %}
             {% if post.url == page.url %}
                 {% assign post_index = forloop.index %}                        
