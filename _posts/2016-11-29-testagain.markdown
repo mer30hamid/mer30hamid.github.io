@@ -1,6 +1,6 @@
 ---
 published: true
-title: testagain
+title: بازم تست
 layout: post
 ---
 باز هم تست
