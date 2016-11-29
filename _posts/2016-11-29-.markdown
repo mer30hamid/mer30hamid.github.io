@@ -1,0 +1,6 @@
+---
+published: true
+title: سلام دنیا!
+layout: post
+---
+اولین پست من :دی
