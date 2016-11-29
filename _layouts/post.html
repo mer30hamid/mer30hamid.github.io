@@ -1,6 +1,3 @@
----
-comments: true
----
 <!doctype html>
 <html lang="en">
 <head>
@@ -23,9 +20,7 @@ comments: true
     </header>
     <article>
         {{ content }}
-        {% if page.comments %}
-            {% include disqus.html %}
-        {% endif %}
+        {% include disqus.html %}
         {% for post in site.posts %}
             {% if post.url == page.url %}
                 {% assign post_index = forloop.index %}                        
