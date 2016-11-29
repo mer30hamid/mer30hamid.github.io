@@ -1,6 +1,0 @@
----
-published: true
-title: 3vom
-layout: post
----
-تست سومی
