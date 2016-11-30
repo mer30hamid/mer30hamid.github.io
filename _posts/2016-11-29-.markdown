@@ -2,6 +2,7 @@
 published: true
 title: سلام دنیا!
 layout: post
+tags: [hello]
 permalink: salam
 ---
 اولین پست من :دی
