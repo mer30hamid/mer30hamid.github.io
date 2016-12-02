@@ -1,6 +1,39 @@
-excerpt_separator: ""
-highlighter: rouge
-markdown: kramdown
-url: http://hamid.id.ir
-title: وب نوشته های من
+# Site settings
+title: حمید کرد
+description: 'حافظ این حال عجب با که توان گفت که ما، بلبلانیم که در موسم گل خاموشیم'
+url: 'http://hamid.id.ir'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+disqus_shortname: 'hamid.id.ir'
+
+author:
+  name: 'Hamid Kurd'
+  email: mer30hamid@gmail.com
+  twitter_username: mer30hamid
+  facebook_username: hamidkurd
+  github_username:  mer30hamid
+  #linkedin_username:  joshgerdes
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
 paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate', 'jekyll-gist']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
