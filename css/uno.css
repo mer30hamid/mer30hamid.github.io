@@ -1107,8 +1107,8 @@ pre {
 	margin-right: 40%; }
 
 .content-wrapper__inner {
-	margin: 10% 0;
-	padding: 0 50px; }
+	margin:  0 10%;
+	padding: 50px 0;  }
 
 .footer {
 	display: block;
@@ -1661,7 +1661,7 @@ input[type="tel"] {
 	.content-wrapper {
 		width: 80%;
 		max-width: none;
-		margin: auto 0; }
+		margin:  0 auto; }
 
 	.content-wrapper__inner {
 		margin-right: 0;
