@@ -1,5 +1,7 @@
 ---
+published: true
 title:  "Welcome to Jekyll!"
+layout: post
 date:   2016-01-08 15:04:23
 categories: [jekyll]
 tags: [jekyll]
