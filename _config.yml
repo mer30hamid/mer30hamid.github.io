@@ -5,6 +5,8 @@ url: 'http://hamid.id.ir'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'hamid-id-ir'
+excerpt_separator: <!--more-->
+
 
 author:
   name: 'Hamid Kurd'
