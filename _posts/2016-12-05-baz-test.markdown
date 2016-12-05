@@ -1,5 +1,5 @@
 ---
-published: false
+draft: true
 title: بازم تست
 layout: post
 tags: [t1, t2]
