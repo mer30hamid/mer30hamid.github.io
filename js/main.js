@@ -21,7 +21,7 @@ jQuery.timeago.settings.strings = {
     years: "%d سال"
 };
 $(document).ready(function () {
-  jQuery(".date time").timeago(); // Persian days ago
+  jQuery(".post-list__meta time").timeago(); // Persian days ago
   $('a.blog-button').click(function (e) {
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     currentWidth = $('.panel-cover').width()
