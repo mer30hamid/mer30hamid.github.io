@@ -39,7 +39,7 @@ $(document).ready(function () {
     $('.panel-cover').addClass('panel-cover--collapsed')
    }
     */
-    if ((!window.location.hash && window.location.hash !== '#blog') || (window.location.pathname == '{{ site.baseurl }}' && window.location.pathname == '{{ site.baseurl }}index.html')) {
+  if (!((window.location.hash && window.location.hash == '#blog') || (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html'))) {
     $('.panel-cover').removeClass('panel-cover--collapsed')
    }
     
