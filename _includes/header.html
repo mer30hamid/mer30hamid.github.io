@@ -71,10 +71,13 @@
               </li>
             {% endif %}
 
-            {% if site.author.email %}
+            {% if site.author.email_username and site.author.email_domain %}
               <!-- Email -->
               <li class="navigation__item">
-                <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
+			  <SCRIPT TYPE="text/javascript">
+					var authorEmail = "{{ site.author.email_username }}"+"@"+"{{ site.author.email_domain }}";
+					document.write('<a href="mailto:' + authorEmail + '" title="Email ' + authorEmail +'" target="_blank">')
+				</SCRIPT>
                   <i class="icon icon-mail"></i>
                   <span class="label">Email</span>
                 </a>

@@ -10,7 +10,8 @@ excerpt_separator: <!--more-->
 
 author:
   name: 'Hamid Kurd'
-  email: mer30hamid@gmail.com
+  email_username: mer30hamid
+  email_domain: gmail.com
   twitter_username: mer30hamid
   facebook_username: hamidkurd
   github_username:  mer30hamid
