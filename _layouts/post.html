@@ -10,7 +10,7 @@ layout: default
   </header>
 
   <section class="post">
-    {{ content }}
+    {{ content | replace: '<!--more-->', '<a class="anchor" id="read-more"></a>' }}
   </section>
   {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
 </article>

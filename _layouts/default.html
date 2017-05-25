@@ -7,7 +7,7 @@
 
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
-        {{ content }}
+        {{ content | replace: '<!--more-->', '<a class="anchor" id="read-more"></a>' }}
       </div>
 
       {% include footer.html %}
