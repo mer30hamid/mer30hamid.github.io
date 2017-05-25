@@ -1148,11 +1148,26 @@ hr {
 	padding: 60px 0; }
 
 .post-meta {
-	margin: 0 0 .4em 0;
-	color: #c7c7c7; }
+	display: block;
+	margin: 0 0 1em 0;
+	font-size: .9em;
+	color: #c7c7c7;
+	height: 26px;  }
 
 .post-meta__date {
-	margin-left: .5em; }
+	float: right;
+    margin-left: .5em;
+    color: #c7c7c7;	
+	line-height:25.6px;
+	}
+.post-meta__date:before {
+	font-family: "foundation-icons";
+    float: right;
+    padding-left: 7px;
+    font-style: normal;
+    font-size: 34px;
+    content: "\f12b";
+	}
 
 .post-meta__tags {
 	margin-right: .4em; }
@@ -1453,11 +1468,20 @@ i {
 	display: block;
 	margin: .7em 0 0 0;
 	font-size: .9em;
-	color: #c7c7c7; }
+	color: #c7c7c7;
+	height: 26px; }
 
 .post-list__meta--date {
+	float:right;
 	margin-left: .5em;
 	color: #c7c7c7; }
+.post-list__meta--date:before {
+font-family: "foundation-icons";
+    float: right;
+    padding-left: 7px;
+    font-style: normal;
+    font-size: 34px;
+    content: "\f12b"; }
 
 .post-list__meta--tags {
 	margin-right: .5em; }
