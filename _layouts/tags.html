@@ -2,12 +2,13 @@
 layout: default
 ---
 
-<h2>Tags:</h2>
-<div class="tags"> 
+<h2>برچسب مطالب:</h2>
+<div class="post-meta__tags tags"> 
 {% for tagitem in site.tags  %} 
   <a href="#{{ tagitem[0] }}">{{  tagitem[0] }}</a>
 {% endfor %}
 </div>
+<div class="taged-posts">
 <!-- iterate through all tags on the site --> 
 {% for tagitem in site.tags %} 
   <!-- for each tag, create an anchor by using the tag name as an id --> 
@@ -27,3 +28,4 @@ layout: default
     </ul>
   </div>
 {% endfor %}
+</div>

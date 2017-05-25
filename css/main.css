@@ -25,20 +25,11 @@ pre.highlight code,
 }
 
 .categories a,
-.tags a {
-  border: 1px solid #e25440;
-  border-radius: 20px;
-  color: #e25440;
-  display: inline-block;
-  font-size: 12px;
-  margin: 5px 0;
-  padding: 5px 10px;
-  text-shadow: none;
-  white-space: nowrap;
+.tags {
+  margin: 35px;
 }
 
 .post-meta__tags{
-	margin:0;
 	padding:0;
 	list-style:none;
 	}
@@ -97,6 +88,14 @@ pre.highlight code,
     margin: 0 20px 10px;
 }
 
+div.taged-posts{
+	display:block;
+	clear:both;
+	padding-top: 25px;
+}
+div.taged-posts li{
+	margin-right: 2em;
+}
 .user-image {
   margin-bottom: 1.2em;
   position: relative;
