@@ -31,14 +31,13 @@ $(document).ready(function () {
     } else {
       $('.panel-cover').css('max-width', currentWidth)
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
-    }
+   }
+  if ((window.location.hash && window.location.hash == '#blog') || (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html')) {
+    $('.panel-cover').addClass('panel-cover--collapsed')
+   }
   })
 
-  if (window.location.hash && window.location.hash == '#blog') {
-    $('.panel-cover').addClass('panel-cover--collapsed')
-  }
-
-  if (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html') {
+  if ((window.location.hash && window.location.hash == '#blog') || (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html')) {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
