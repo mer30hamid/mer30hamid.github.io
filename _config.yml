@@ -3,8 +3,10 @@ title: حمید کرد
 description: 'حافظ این حال عجب با که توان گفت که ما، بلبلانیم که در موسم گل خاموشیم'
 url: 'http://hamid.id.ir'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
-disqus_shortname: 'hamid.id.ir'
+google_analytics: 'UA-51968105-2'
+disqus_shortname: 'hamid-id-ir'
+excerpt_separator: <!--more-->
+
 
 author:
   name: 'Hamid Kurd'
