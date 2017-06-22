@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: آزمایش ارسال به کانال تلگرام
 layout: post
 tags: [عمومی]
