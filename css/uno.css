@@ -6,19 +6,19 @@
 
 @font-face {
   font-family: Vazir;
-  src: url('../fonts/vazir-FD-WOL/vazir-FD-WOL.eot');
-  src: url('../fonts/vazir-FD-WOL/vazir-FD-WOL.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/vazir-FD-WOL/vazir-FD-WOL.woff') format('woff'),
-       url('../fonts/vazir-FD-WOL/vazir-FD-WOL.ttf') format('truetype');
+  src: url('../fonts/Vazir-FD-WOL/Vazir-FD-WOL.eot');
+  src: url('../fonts/Vazir-FD-WOL/Vazir-FD-WOL.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir-FD-WOL/Vazir-FD-WOL.woff') format('woff'),
+       url('../fonts/Vazir-FD-WOL/Vazir-FD-WOL.ttf') format('truetype');
   font-weight: normal;
 }
       
 @font-face {
   font-family: Vazir;
-  src: url('../fonts/vazir-FD-WOL/Vazir-Bold-FD-WOL.eot');
-  src: url('../fonts/vazir-FD-WOL/Vazir-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/vazir-FD-WOL/Vazir-Bold-FD-WOL.woff') format('woff'),
-       url('../fonts/vazir-FD-WOL/Vazir-Bold-FD-WOL.ttf') format('truetype');
+  src: url('../fonts/Vazir-FD-WOL/Vazir-Bold-FD-WOL.eot');
+  src: url('../fonts/Vazir-FD-WOL/Vazir-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir-FD-WOL/Vazir-Bold-FD-WOL.woff') format('woff'),
+       url('../fonts/Vazir-FD-WOL/Vazir-Bold-FD-WOL.ttf') format('truetype');
   font-weight: bold;
 }
 .read-more{
@@ -951,7 +951,7 @@ html {
 	max-height: 100%; }
 
 body {
-	font-family: vazir,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-family: Vazir,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
 	font-size: 1em;
 	color: #666666; }
 
@@ -979,7 +979,7 @@ h5,
 h5 {
 	margin-top: .8em;
 	margin-bottom: .4em;
-	font-family: vazir,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-family: Vazir,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
 	font-weight: lighter;
 	color: #333333;
 	-webkit-font-smoothing: antialiased; }
@@ -1022,7 +1022,7 @@ blockquote {
 	background: #f8f8f8;
 	border: 1px solid #eeeeee;
 	border-radius: 3px;
-	font-family: vazir,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-family: Vazir,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
 	font-weight: lighter;
 	font-style: italic;
 	font-size: 1.3em;
@@ -1093,7 +1093,7 @@ pre {
 	color: #999999; }
 
 .intro {
-	font-family: vazir,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-family: Vazir,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
 	font-size: 1.2em;
 	font-weight: lighter;
 	color: #999999; }
@@ -1243,7 +1243,7 @@ hr {
 	color: #FFF; }
 
 .panel-subtitle {
-	font-family: vazir,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-family: Vazir,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
 	font-size: 1.2em;
 	font-weight: lighter;
 	/* letter-spacing: 3px; */
