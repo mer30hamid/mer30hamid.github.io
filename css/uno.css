@@ -1501,7 +1501,8 @@ i {
 	margin: .7em 0 0 0;
 	font-size: .9em;
 	color: #c7c7c7;
-	height: 26px; }
+	height: 26px; 
+	clear:both}
 
 .post-list__meta--date {
 	float:right;
