@@ -21,7 +21,10 @@
        url('../fonts/vazir-FD-WOL/Vazir-Bold-FD-WOL.ttf') format('truetype');
   font-weight: bold;
 }
-
+.read-more{
+	text-align: left;
+	float: left;
+}
 
 
 
@@ -1060,7 +1063,8 @@ pre {
 	font-size: .9em;
 	font-weight: normal;
 	line-height: 1.3em;
-	direction: ltr; }
+	direction: ltr;
+	text-align: left}
 	pre code {
 		padding: 0;
 		background: none;
