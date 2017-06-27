@@ -1,6 +1,8 @@
+/*
+	not needed in minify mode
 @import url(uno.css?v1.7);
 @import url(monokai.css);
-
+*/
 /* Modifications */
 
 pre.highlight,
