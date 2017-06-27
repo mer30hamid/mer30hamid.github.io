@@ -1,7 +1,3 @@
----
-layout: null
----
-
 // Persian days ago
 jQuery.timeago.settings.strings = {
     prefixAgo: null,
@@ -35,11 +31,11 @@ $(document).ready(function () {
   })
 
     /*
-  if ((window.location.hash && window.location.hash == '#blog') || (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html')) {
+  if ((window.location.hash && window.location.hash == '#blog') || (window.location.pathname !== '/' && window.location.pathname !== '/index.html')) {
     $('.panel-cover').addClass('panel-cover--collapsed')
    }
     */
-  if (!((window.location.hash && window.location.hash == '#blog') || (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html'))) {
+  if (!((window.location.hash && window.location.hash == '#blog') || (window.location.pathname !== '/' && window.location.pathname !== '/index.html'))) {
     $('.panel-cover').removeClass('panel-cover--collapsed')
    }
     
