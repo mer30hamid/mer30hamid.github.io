@@ -1260,13 +1260,18 @@ hr {
 	max-width: none;
 	height: 100%;
 	background: url(../images/background-cover.jpg) top left no-repeat #666666;
-	background-size: cover; }
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	right: 0;}
 
 .panel-cover--collapsed {
 	width: 40%;
 	max-width: 530px; }
 
 .panel-cover--overlay {
+	margin: 0;
 	display: block;
 	position: absolute;
 	z-index: 0;
@@ -1295,7 +1300,8 @@ hr {
 .panel-main {
 	display: table;
 	width: 100%;
-	height: 100%; }
+	height: 100%;
+	margin: 0; }
 
 .no-js .panel-main {
 	width: 40%;
@@ -1392,6 +1398,7 @@ hr {
 	font-size: .7em; }
 
 .btn-mobile-menu {
+	margin: 0;
 	display: none;
 	position: fixed;
 	z-index: 9999;
