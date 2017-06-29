@@ -35,10 +35,12 @@ $(document).ready(function () {
     $('.panel-cover').addClass('panel-cover--collapsed')
    }
     */
+  /*
   if (!((window.location.hash && window.location.hash == '#blog') || (window.location.pathname !== '/' && window.location.pathname !== '/index.html'))) {
     $('.panel-cover').removeClass('panel-cover--collapsed')
    }
-    
+  */
+
   $('.btn-mobile-menu').click(function () {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')

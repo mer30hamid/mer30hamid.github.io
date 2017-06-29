@@ -18,10 +18,9 @@ window.addEventListener("scroll", function(){
 	}
 }, true);
 {% endif %}
-
 function downloadJSAtOnload() {
 	var element = document.createElement("script");
-	element.src = "{{ "js/main.min.js" | prepend: site.baseurl }}";
+	element.src = "/js/main.min.js";
 	document.body.appendChild(element);
 }
 if (window.addEventListener)
@@ -30,4 +29,11 @@ else if (window.attachEvent)
 	window.attachEvent("onload", downloadJSAtOnload);
 else 
 	window.onload = downloadJSAtOnload;
+function removeClass(ele, cls) {
+        var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
+        ele.className = ele.className.replace(reg, ' ');
+}
+if (!((window.location.hash && window.location.hash == '#blog') || (window.location.pathname !== '/' && window.location.pathname !== '/index.html'))) {
+	removeClass(document.getElementsByClassName("panel-cover")[0], 'panel-cover--collapsed');
+}
 </script>
