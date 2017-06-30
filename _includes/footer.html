@@ -3,7 +3,17 @@
 </footer> 
 
 
+{% if jekyll.environment != "production" %}
+{% comment %}
+//development env codes (using uncompressd js):
+{% endcomment %}
+<script type="text/javascript" src="{{ "js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/jquery.timeago.min.js" | prepend: site.baseurl }}" /></script>
+<script type="text/javascript" src="{{ "js/main.js" | prepend: site.baseurl }}"></script>
+{% endif %}
+
 <script>
+{% if jekyll.environment == "production" %}
 {% if site.google_analytics %}
 var fired = false;
 window.addEventListener("scroll", function(){
@@ -20,7 +30,11 @@ window.addEventListener("scroll", function(){
 {% endif %}
 function downloadJSAtOnload() {
 	var element = document.createElement("script");
-	element.src = "/js/main.min.js";
+	{% if site.cdn_address %}
+	element.src = "{{ "js/main.min.js" | prepend: site.cdn_address }}";
+	{% else %}
+	element.src = "{{ "js/main.min.js" | prepend: site.baseurl }}";
+	{% endif %}
 	document.body.appendChild(element);
 }
 if (window.addEventListener)
@@ -29,6 +43,10 @@ else if (window.attachEvent)
 	window.attachEvent("onload", downloadJSAtOnload);
 else 
 	window.onload = downloadJSAtOnload;
+{% endif %}
+{% comment %}
+//rest of js codes:
+{% endcomment %}
 function removeClass(ele, cls) {
         var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
         ele.className = ele.className.replace(reg, ' ');

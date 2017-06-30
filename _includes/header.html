@@ -2,14 +2,21 @@
   <i class="icon icon-list btn-mobile-menu__icon"></i>
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </a>
-  
+{% if site.cdn_address and jekyll.environment == "production" %}
+<header class="panel-cover panel-cover--collapsed" style="background-image: url({{ "images/cover.jpg" | prepend: site.cdn_address }})">
+{% else %}
 <header class="panel-cover panel-cover--collapsed" style="background-image: url({{ "images/cover.jpg" | prepend: site.baseurl }})">
+{% endif %}
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
         <a href="{{ site.baseurl }}" title="link to home of {{ site.title }}">
+          {% if site.cdn_address and jekyll.environment == "production" %}
+          <img src="{{ "images/profile.jpg" | prepend: site.cdn_address }}" class="user-image" alt="My Profile Photo">
+          {% else %}
           <img src="{{ "images/profile.jpg" | prepend: site.baseurl }}" class="user-image" alt="My Profile Photo">
+          {% endif %}
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
