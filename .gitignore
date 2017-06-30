@@ -1,4 +1,6 @@
-_site
+_site/
+.sass-cache/
+.jekyll-metadata
 Gemfile*
 *.CMD
 2017-06-21-typo-test.markdown
