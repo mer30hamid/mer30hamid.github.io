@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+{% if site.HTML_Lang %}
+<html lang="{{ site.HTML_Lang }}">
+{% else %}
 <html>
+{% endif %}
   {% include head.html %}
 
   <body>

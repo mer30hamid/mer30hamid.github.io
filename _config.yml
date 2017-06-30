@@ -8,6 +8,7 @@ google_analytics: 'UA-51968105-2'
 disqus_shortname: 'hamid-id-ir'
 excerpt_separator: <!--more-->
 cdn_address: '//cdn.takwp.ir/docs/'
+HTML_Lang: 'fa-IR'
 
 author:
   name: 'Hamid Kurd'
