@@ -1,7 +1,7 @@
 # Site settings
 title: حمید کرد
 description: 'حافظ این حال عجب با که توان گفت که ما، بلبلانیم که در موسم گل خاموشیم'
-url: 'http://hamid.id.ir/'
+url: 'http://hamid.id.ir'
 baseurl: ''
 timezone: Asia/Tehran
 google_analytics: 'UA-51968105-2'
