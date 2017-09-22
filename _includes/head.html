@@ -63,15 +63,15 @@
 {% comment %}
 //development env styles (using uncompressd css files):
 {% endcomment %}
-  <link rel="stylesheet" href="{{ "css/animate.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "css/uno.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "css/monokai.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/uno.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/monokai.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 {% else %}
   {% if site.cdn_address %}
-  <link rel="stylesheet" href="{{ "css/main.min.css" | prepend: site.cdn_address }}">
+  <link rel="stylesheet" href="{{ "/css/main.min.css" | prepend: site.cdn_address }}">
   {% else %}
-  <link rel="stylesheet" href="{{ "css/main.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.min.css" | prepend: site.baseurl }}">
   {% endif %}
 {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

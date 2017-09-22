@@ -7,9 +7,9 @@
 {% comment %}
 //development env codes (using uncompressd js):
 {% endcomment %}
-<script type="text/javascript" src="{{ "js/jquery.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "js/jquery.timeago.min.js" | prepend: site.baseurl }}" /></script>
-<script type="text/javascript" src="{{ "js/main.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/jquery.timeago.min.js" | prepend: site.baseurl }}" /></script>
+<script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 {% endif %}
 
 <script>
@@ -31,9 +31,9 @@ window.addEventListener("scroll", function(){
 function downloadJSAtOnload() {
 	var element = document.createElement("script");
 	{% if site.cdn_address %}
-	element.src = "{{ "js/main.min.js" | prepend: site.cdn_address }}";
+	element.src = "{{ "/js/main.min.js" | prepend: site.cdn_address }}";
 	{% else %}
-	element.src = "{{ "js/main.min.js" | prepend: site.baseurl }}";
+	element.src = "{{ "/js/main.min.js" | prepend: site.baseurl }}";
 	{% endif %}
 	document.body.appendChild(element);
 }
