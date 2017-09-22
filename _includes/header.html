@@ -3,9 +3,9 @@
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </a>
 {% if (site.cdn_address) and (jekyll.environment == "production") %}
-<header class="panel-cover panel-cover--collapsed" style="background-image: url({{ "images/cover.jpg" | prepend: site.cdn_address }})">
+<header class="panel-cover panel-cover--collapsed" style="background-image: url({{ "/images/cover.jpg" | prepend: site.cdn_address }})">
 {% else %}
-<header class="panel-cover panel-cover--collapsed" style="background-image: url({{ "images/cover.jpg" | prepend: site.baseurl }})">
+<header class="panel-cover panel-cover--collapsed" style="background-image: url({{ "/images/cover.jpg" | prepend: site.baseurl }})">
 {% endif %}
   <div class="panel-main">
 
