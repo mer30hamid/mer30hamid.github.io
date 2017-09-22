@@ -13,9 +13,9 @@
     <div class="panel-main__content">
         <a href="{{ site.baseurl }}/" title="صفحه خانگی {{ site.title }}">
           {% if (site.cdn_address) and (jekyll.environment == "production") %}
-          <img src="{{ "images/profile.jpg" | prepend: site.cdn_address }}" class="user-image" alt="My Profile Photo">
+          <img src="{{ "/images/profile.jpg" | prepend: site.cdn_address }}" class="user-image" alt="My Profile Photo">
           {% else %}
-          <img src="{{ "images/profile.jpg" | prepend: site.baseurl }}" class="user-image" alt="My Profile Photo">
+          <img src="{{ "/images/profile.jpg" | prepend: site.baseurl }}" class="user-image" alt="My Profile Photo">
           {% endif %}
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
