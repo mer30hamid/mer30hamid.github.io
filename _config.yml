@@ -40,5 +40,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems: ['jekyll-paginate', 'jekyll-gist']
+plugins: ['jekyll-paginate', 'jekyll-gist']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'JekylMERun.cmd','minify.cmd','minify.js','node_modules','_site','jquery.min.js','jquery.timeago.min.js','main.js','animate.css','main.css','monokai.css','uno.css','CNAME']
