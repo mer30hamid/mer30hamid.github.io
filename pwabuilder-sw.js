@@ -82,3 +82,8 @@ function updateCache(request, response) {
     return cache.put(request, response);
   });
 }
+
+
+{% if site.google_analytics %}
+//test
+{% endif %}
