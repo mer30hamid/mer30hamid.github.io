@@ -1,6 +1,6 @@
 {
-	"name" : "Hamid Kurd's Blog",
-	"short_name" : "Hamid Kurd's personal blog",
+	"short_name" : "HK_Blog",
+	"name" : "Hamid Kurd's personal blog",
 	"description" : "وبلاگ شخصی حمید کرد",
 	"start_url" : "/",
 	"scope" : "/",
